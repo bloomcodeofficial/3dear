@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../bin/live-reload.js", "../src/utils/three.ts", "../src/index.ts"],
+  "sourcesContent": ["new EventSource(`${SERVE_ORIGIN}/esbuild`).addEventListener('change', () => location.reload());\n", "export const threeJS = function () {\n  console.log('HELLO');\n};\n", "import { threeJS } from '$utils/three';\n\nthreeJS();\n"],
+  "mappings": ";;;AAAA,MAAI,YAAY,GAAG,iCAAsB,EAAE,iBAAiB,UAAU,MAAM,SAAS,OAAO,CAAC;;;ACAtF,MAAM,UAAU,WAAY;AACjC,YAAQ,IAAI,OAAO;AAAA,EACrB;;;ACAA,UAAQ;",
+  "names": []
+}
